@@ -5,6 +5,10 @@
 <div align="center">
   <br />
 
+## Introduction
+This is the frontend application for managing marketing campaigns using Next.js. The application consumes the backend API created with Django to display, create, update, and delete campaigns, which include a title, description, and image.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
