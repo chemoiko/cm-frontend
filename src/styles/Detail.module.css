@@ -1,0 +1,150 @@
+.wrapper{
+    height: 100vh;
+    background-color: #001101;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.main{
+    background-image: url("https://lerneprogrammieren.com/wp-content/uploads/2021/11/laptop-fuer-programmierer.jpg");
+    position: absolute;
+    top: 0;
+    height: 10%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #001101;
+    opacity: 0.08;
+
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: white;
+    z-index: 2;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+
+.contents{
+    width: 100%;
+    padding: 7rem 10rem;
+    position: absolute;
+    z-index:2;
+    color: white;
+}
+
+.img{
+    border-radius: 100%;
+}
+
+.grid{
+    display: flex;
+}
+.left{
+    width: 40%;
+    
+}
+.right{
+    width: 40%;
+}
+.rightContents{
+    margin-left: 6rem;
+}
+
+.formGroup{
+    margin-bottom: 16px;
+}
+
+.input{
+    font-size: 15px;
+    background: #ffffff;
+    padding: 12px;
+    border: 1px solid #e3e3e3;
+    line-height: 1.4;
+    width: 100%;
+    border-width: 1px;
+    color: #444951;
+    border-radius: 0;
+    font-weight: 400;
+    height: 45px;
+}
+
+.button{
+    color: #ffffff;
+    background-color: #4a56fc;
+    border-radius: 0;
+    font-weight: 700;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    transition: all ease-in;
+}
+
+.consent{
+    font-size: 11px;
+    color: #787878;
+}
+
+.thankyou{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-left: 24px;
+    background-color: white;
+}
+
+.message{
+    padding-left: 12px;
+    color: #001101;
+}
+@media(max-width: 1024px) {
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .contents{
+        padding: 2rem 4rem;
+    }
+    .left{
+        width: 100%;
+    }
+    
+    .right{
+        width: 100%;
+        display: flex;
+        margin-top: 15px;
+    }
+    
+    .rightContents{
+        margin-left: 0rem;
+        flex: 1;
+        align-self: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .contents{
+        padding: 1rem 2rem;
+    }
+    .description{
+        display: none;
+    }
+}
+
+
